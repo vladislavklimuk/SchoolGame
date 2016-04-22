@@ -63,11 +63,13 @@ body {
  background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
 }
 .fbox{
+	 background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	height: 10vw;
-	margin: auto;
+	justify-content: center;
+	height: 100%;
+	align-items: center;	 
+    position: fixed;
 }
 
 .q{
@@ -79,11 +81,13 @@ body {
 	
 	background: #eee;
 	padding: 3vw;
-	margin: 1vw auto;
-	margin-right:3vw; 
+	margin: 1vw 2vw ;
+	
 	font-size: 2vw;
 	font-family: roboto;
+	color: #333333;
 	font-weight: 300;
+
 
 	
 }
