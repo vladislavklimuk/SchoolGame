@@ -6,18 +6,48 @@
 	<title>School Game</title>
 	<link rel="stylesheet" href="../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   	<script src="lesson.js"></script>
+  	<script>
+    $(document).ready(function(){
+        //Скрыть PopUp при загрузке страницы    
+        PopUpHide();
+    });
+    //Функция отображения PopUp
+    function PopUpShow(){
+        $("#popup1").show();
+    }
+    //Функция скрытия PopUp
+    function PopUpHide(){
+        $("#popup1").hide();
+    }
+</script>
 </head>
 <body>
-1
+<div class="question ">Цвета беларусского флага</div>
 
-	
-		
+<a href="javascript:PopUpShow()"><div class="ans">ОТВЕТ</div></a>
 
+
+<div class="b-popup" id="popup1">
+    <div class="b-popup-content">
+        <div class="headerAns">
+        	
+        </div>
+		<div class="footerAns">
+			<a href="javascript:PopUpShow()"><div class="ansinq1 ansinq">ВЕРНО</div></a>
+			<a href="javascript:PopUpShow()"><div class="ansinq2 ansinq">НЕ ВЕРНО</div></a>
+		</div>
+
+
+    <a href="javascript:PopUpHide()">Hide popup</a>
+    </div>
+</div>
 	
 
 
 	
 </body>
 </html>
+
+

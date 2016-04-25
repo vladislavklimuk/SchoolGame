@@ -61,9 +61,10 @@ a{
 
 body {
  background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
+ font-weight: 300;
 }
 .fbox{
-	 background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
+	background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -86,7 +87,7 @@ body {
 	font-size: 2vw;
 	font-family: roboto;
 	color: #333333;
-	font-weight: 300;
+	
 
 
 	
@@ -103,3 +104,114 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.qbEXP1{
+	font-weight: 100;
+	background: red;
+}
+
+.qbEXP2{
+	font-weight: 300;
+}
+
+.qbEXP3{
+	font-weight: 400;
+}
+
+.qbEXP4{
+	font-weight: 500;
+}
+
+.qbEXP5{
+	font-weight: 700;
+}
+
+.question{
+	background: #eee;
+	padding: 3vw;
+	margin: 3vw ;
+	font-size: 3vw;
+	font-family: roboto;
+	color: #333;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+  	text-align: center;
+	background: #eee;
+  
+
+	}
+
+
+.ans{
+	background: #eee;
+	padding: 3vw;
+	font-size: 3vw;
+	font-family: roboto;
+	color: #333333;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+	text-align: center;
+	margin:  19vw 19vw; ;
+
+
+}
+.ans:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.b-popup .b-popup-content{
+    margin:5% ;
+	height: 50vw;
+	width: 90vw;
+    background-color: #eee;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.headerAns{
+	height: 75%;
+}
+
+.footerAns{
+	height: 25%;
+
+
+
+}
+.ansinq{
+	background: #eee;
+	padding: 5vw;
+	font-size: 4vw;
+	font-family: roboto;
+	color: #333333;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+	text-align: center;
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin: 1vw;
+}
+
+.ansinq2{
+	float: right;
+	background: #FF7043;
+	
+}
+.ansinq1{
+	float: left;
+	background: #9CCC65;
+	
+}
+<iframe class="fram" src="1q20ex.html">
+</iframe>
