@@ -1,0 +1,1 @@
+var globresult1kom; 

@@ -21,6 +21,14 @@
     function PopUpHide(){
         $("#popup1").hide();
     }
+
+    var exp=10;
+
+    $("#tr").on("click", function(){
+    	sglobresult1kom=globresult1kom+exp;
+    	console.log(globresult1kom);
+    });
+
 </script>
 </head>
 <body>
@@ -36,16 +44,16 @@
         	
         </div>
 		<div class="footerAns">
-			<a href=""class="ansinq1 ansinq">ВЕРНО</a>
+			<a href=""class="ansinq1 ansinq" id="tr">ВЕРНО</a>
 			<a href=""class="ansinq2 ansinq">НЕВЕРНО</a>
 		</div>
-
-
-    <a href="javascript:PopUpHide()">Hide popup</a>
     </div>
 </div>
 	
+<script>
+	
 
+</script>
 
 	
 </body>
