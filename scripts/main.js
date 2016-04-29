@@ -2,7 +2,6 @@ var globresult1kom;
 var ferstCom=0;
 var secondCom=0;
 var ochered=2;
-var exp=10;
     //Функция отображения PopUp
     function PopUpShow(){
         $("#popup1").show();
@@ -86,3 +85,4 @@ var exp=10;
 	console.log(ochered);}
 
 	}
+
