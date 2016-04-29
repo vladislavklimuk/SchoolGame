@@ -7,29 +7,13 @@
 	<link rel="stylesheet" href="../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  	<script src="lesson.js"></script>
+  	
   	<script>
     $(document).ready(function(){
         //Скрыть PopUp при загрузке страницы    
         PopUpHide();
     });
-    //Функция отображения PopUp
-    function PopUpShow(){
-        $("#popup1").show();
-    }
-    //Функция скрытия PopUp
-    function PopUpHide(){
-        $("#popup1").hide();
-    }
-
     var exp=10;
-
-    $("#tr").on("click", function(){
-    	sglobresult1kom=globresult1kom+exp;
-    	console.log(globresult1kom);
-    });
-    
-
 </script>
 </head>
 <body>
@@ -45,17 +29,13 @@
         	
         </div>
 		<div class="footerAns">
-			<a href="javascript:ansTrue()"class="ansinq1 ansinq" id="tr">ВЕРНО</a>
-			<a href=""class="ansinq2 ansinq">НЕВЕРНО</a>
+			<a href="javascript:ball()"class="ansinq1 ansinq" id="tr">ВЕРНО</a>
+			<a href="javascript:miss()"class="ansinq2 ansinq">НЕВЕРНО</a>
 		</div>
     </div>
 </div>
 	
-<script>
-	
-
-</script>
-
+<script src="lesson.js"></script>
 	
 </body>
 </html>

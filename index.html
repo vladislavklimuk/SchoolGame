@@ -8,8 +8,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   	<script src="question/lesson.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 <body>
+<div class="le"><span id="nazv1">N1</span> <span id="n1"></span></div>
+<div class="rig"><span id="nazv2">N2</span>  <span id="n2"></span></div>
 <div class="fbox">
 	<div class="q1 q">
 	<div class="nameq">Беларусь</div>
@@ -52,8 +55,23 @@
 	<a href="question/5q50ex.html"><div class="qbEXP5">50</div></a>
 	</div>
 
+	
 </div>
+<div onclick="cler()" class="sbros"><i class="zmdi zmdi-refresh zmdi-hc-3x zmdi-flower-alt "></i></div>
 
+
+<script>
+$(document).ready(function(){
+		if (localStorage.EXP2team!=undefined){
+			document.getElementById("n2").innerHTML =localStorage.EXP2team;
+		}
+        if (localStorage.EXP1team!=undefined){
+			document.getElementById("n1").innerHTML =localStorage.EXP1team;
+		}
+        
+            });
+	
+</script>
 	
 		
 
