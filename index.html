@@ -66,35 +66,27 @@ $(document).ready(function(){
         if (localStorage.EXP1team!=undefined){
 			document.getElementById("n1").innerHTML =localStorage.EXP1team;
 		}
-		
-		$("a[sqr]").ready(function(){
-			var lol=this;
-			if (localStorage.getItem(this)=='2'){
-			console.log('sssssssssssssssssssssssss')
-		}else {
-			console.log('NONONONONON');
-			console.log(localStorage.getItem(this));
-			console.log($('a[sqr]'));
-		}
 
+});
 
-		});
-
-
-		
-		//if $( ".sqr" ) 
-        
-            });
-
-		$( ".sqr" ).on( "click", function() {
-			var val=this;
- 			 localStorage.setItem(val, '2');
- 			 console.log(val);
-
-
+	$( ".sqr" ).on( "click", function() {
+		var val=this.href;
+		localStorage.setItem(val, '2');
+ 		console.log(val);
 
 
 });
+
+ 	$(".sqr").each(function(){ 
+     	if (localStorage.getItem(this)=='2'){
+    	 	$(this).css("background-color","red")
+  		}
+});
+
+
+
+
+
 
 
 	
