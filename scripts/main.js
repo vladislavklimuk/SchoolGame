@@ -11,12 +11,6 @@ var ochered=2;
         $("#popup1").hide();
     }
     
-
-
-
-
-
-
     function ball(){
 	if (localStorage.getItem('ochered')==2) {
 		
@@ -30,15 +24,7 @@ var ochered=2;
 			}}
 
 	  	document.location.href='../index.html';
-
-
-
-	}
-
-
-
-
-			
+	}			
 
 	else {
 		if(typeof(Storage) !== "undefined") {
@@ -51,12 +37,7 @@ var ochered=2;
 	console.log(ochered);
 
 		}
-
-
 	}	
-
-
-
 
 
 	function cler(){
@@ -73,12 +54,6 @@ var ochered=2;
 		
 		
 	  document.location.href='../index.html';}
-
-
-
-
-			
-
 	else {
 		localStorage.setItem('ochered', '2');
 	document.location.href='../index.html';
@@ -86,3 +61,8 @@ var ochered=2;
 
 	}
 
+	function okl () {
+    $(this).css({
+        "background": "red"
+    });
+}
