@@ -1,6 +1,3 @@
-var globresult1kom; 
-var ferstCom=0;
-var secondCom=0;
 var ochered=2;
     //Функция отображения PopUp
     function PopUpShow(){
@@ -60,9 +57,3 @@ var ochered=2;
 	console.log(ochered);}
 
 	}
-
-	function okl () {
-    $(this).css({
-        "background": "red"
-    });
-}
