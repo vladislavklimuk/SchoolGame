@@ -63,16 +63,21 @@ body {
  
  font-weight: 300;
  background-repeat: round;
+
 }
 .fbox{
 	background: radial-gradient(circle at bottom left, #f4d894, #ff6666);
 
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-end;
 	height: 100%;
 	align-items: center;	 
     position: fixed;
+    padding-right: 9vw;
+
+    
+
 }
 
 .q{
@@ -80,6 +85,7 @@ body {
 	
 
 }
+
 .q a{
 	
 	background: #eee;
@@ -120,6 +126,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 .qbEXP2{
 	font-weight: 300;
+
 }
 
 .qbEXP3{
@@ -128,10 +135,12 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 .qbEXP4{
 	font-weight: 500;
+
 }
 
 .qbEXP5{
 	font-weight: 700;
+
 }
 
 .question{
