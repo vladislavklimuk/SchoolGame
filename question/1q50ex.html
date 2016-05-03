@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  	
+  	<script src="../jquery-2.2.3.min.js"></script>
   	<script>
     $(document).ready(function(){
         //Скрыть PopUp при загрузке страницы    
@@ -18,20 +18,20 @@
 </head>
 <body>
 <div class="oblast ">
-<div class="question ">Назавіце дату і месца нараджэння</div>
+<div class="question ">Назавіце дату і месца нараджэння <br> Я. Купалы і Я. Коласа</div>
 
-<a href="javascript:PopUpShow()"><div  class="ans">ОТВЕТ</div></a>
+<a href="javascript:PopUpShow()"><div  class="ans">АДКАЗ</div></a>
 
 
 <div class="b-popup" id="popup1">
     <div class="b-popup-content">
         <div class="headerAns">
-        <div class="otvet">Купала- 7 ліпеня 1882 года ў фальварку Вязынка<br> Колас- 3 лістапада 1882 года у весцы Акінчыцы</div>
+        <div class="otvet">Купала- 7 ліпеня 1882 года ў фальварку Вязынка<br> Колас- 3 лістапада 1882 года ў вёсцы Акінчыцы</div>
         	
         </div>
 		<div class="footerAns">
-			<a href="javascript:ball()"class="ansinq1 ansinq" id="tr">ВЕРНО</a>
-			<a href="javascript:miss()"class="ansinq2 ansinq">НЕВЕРНО</a>
+			<a href="javascript:ball()"class="ansinq1 ansinq" id="tr">ПРАВІЛЬНА</a>
+			<a href="javascript:miss()"class="ansinq2 ansinq">НЯПРАВІЛЬНА</a>
 		</div>
     </div>
 </div>
