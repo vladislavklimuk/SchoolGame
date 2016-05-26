@@ -7,7 +7,7 @@ var ochered=2;
     function PopUpHide(){
         $("#popup1").hide();
     }
-    
+    //Подсчет баллов
     function ball(){
 	if (localStorage.getItem('ochered')==2) {
 		
@@ -36,14 +36,14 @@ var ochered=2;
 		}
 	}	
 
-
+	//Функция очистки local storage 
 	function cler(){
 		localStorage.clear();
 		location.reload();
 	}
 
 
-
+	//функция очереди teams
 	function miss () {
 		if (localStorage.getItem('ochered')==2) {
 		
